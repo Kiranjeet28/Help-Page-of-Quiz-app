@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Help Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        pre {
+            font-family: inherit;
+        }
+        .note {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Guidance for Users & Admins to Use the <b>Quiz App with Auth</b></h1>
+    
+    <h2>Admin</h2>
+    <pre>
+Admins have multiple features:
+1. View any user's score with full details except the password.
+2. Admins see three options after logging in:
+    i. About Admin
+    ii. About User
+    iii. Exit
+3. "About Admin" options:
+    i. See all admins
+    ii. Add new admin
+    iii. Delete admin
+    iv. Back
+    v. Exit
+4. "About User" options:
+    i. View all users
+    ii. View details of any user
+    iii. Add questions to the quiz
+    iv. Export user details to an Excel file (a new Excel file will be created)
+    </pre>
+    
+    <h3 class="note">Notes for Admins:</h3>
+    <pre class="note">
+- Admins cannot play the game without a user account.
+- New admins can only be added by current admins.
+- OTP is required to add or delete other admins.
+    </pre>
+    
+    <h2>User</h2>
+    <pre>
+Users have multiple features:
+1. Security: Other users cannot see your details.
+2. Create an account using Gmail, Password, and an OTP received via Gmail.
+3. Sign in with Gmail and Password.
+4. View scores in a tabular form:
+    i. By specific language -> Send score to your email OR play again.
+    ii. Overall score.
+5. Play the quiz with the following steps:
+    i. Choose a language (Java, JavaScript, Web Development).
+    ii. Name the quiz (name should be unique).
+    iii. Answer the questions displayed as radio buttons.
+    iv. View the score at the end.
+    v. After pressing OK on the score message box, choose from:
+        1. View account details
+        2. Play again with another language
+        3. Play again with the same language
+        4. Send results to yourself (via email)
+        5. Exit
+    </pre>
+    
+    <h3 class="note">Notes for Users:</h3>
+    <pre class="note">
+- Users cannot see details of other users.
+    </pre>
+</body>
+</html>
