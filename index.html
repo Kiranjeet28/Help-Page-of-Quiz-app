@@ -7,23 +7,34 @@
     <style>
         body {
             font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
         }
         pre {
             font-family: inherit;
+            background-color: #f4f4f4;
+            padding: 10px;
+            border-radius: 5px;
+            overflow-x: auto;
         }
         .note {
             color: red;
             font-weight: bold;
         }
+        video {
+            display: block;
+            margin: 20px 0;
+            max-width: 100%;
+        }
     </style>
 </head>
 <body>
-    <h1>Guidance for Users & Admins to Use the <b>Quiz App with Auth</b></h1>
-    
-    <h2>Admin</h2>
-    <pre>
+<h1>Guidance for Users & Admins to Use the <b>Quiz App with Auth</b></h1>
+
+<h2>Admin</h2>
+<pre>
 Admins have multiple features:
-1. Admin Login with Gmail and Password .
+1. Admin Login with Gmail and Password.
 2. Admins see three options after logging in:
     i. About Admin
     ii. About User
@@ -40,17 +51,20 @@ Admins have multiple features:
     iii. Add questions to the quiz
     iv. Export user details to an Excel file (a new Excel file will be created)
     </pre>
-    
-    <h3 class="note">Notes for Admins:</h3>
-    <pre class="note">
+
+<h3 class="note">Notes for Admins:</h3>
+<pre class="note">
 - Admins cannot play the game without a user account.
 - New admins can only be added by current admins.
 - OTP is required to add or delete other admins.
     </pre>
-    <video src="./VN20240525_111132.mp4"></video>
-    
-    <h2>User</h2>
-    <pre>
+<video controls>
+    <source src="./VN20240525_111132.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
+<h2>User</h2>
+<pre>
 Users have multiple features:
 1. Security: Other users cannot see your details.
 2. Create an account using Gmail, Password, and an OTP received via Gmail.
@@ -70,11 +84,14 @@ Users have multiple features:
         4. Send results to yourself (via email)
         5. Exit
     </pre>
-    
-    <h3 class="note">Notes for Users:</h3>
-    <pre class="note">
+
+<h3 class="note">Notes for Users:</h3>
+<pre class="note">
 - Users cannot see details of other users.
     </pre>
-    <video src="VN20240521_114742.mp4"></video>
+<video controls>
+    <source src="VN20240521_114742.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
 </body>
 </html>
